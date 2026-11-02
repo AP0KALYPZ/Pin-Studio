@@ -1,0 +1,102 @@
+{
+  "name": "pin-studio",
+  "version": "1.0.0",
+  "description": "Pin Studio — local-first desktop app for planning and manually posting Pinterest Pins from Shopify product photos.",
+  "author": "Pin Studio",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "dist-electron/main/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "concurrently -k -n RENDERER,ELECTRON -c auto \"npm run dev:renderer\" \"npm run dev:electron\"",
+    "dev:renderer": "vite --port 5173",
+    "dev:electron": "npm run build:main && wait-on tcp:5173 && electron .",
+    "build": "npm run build:main && npm run build:renderer",
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:renderer": "vite build",
+    "build:preload": "tsc -p tsconfig.main.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.main.json",
+    "lint": "eslint src tests",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "rebuild:electron": "node scripts/rebuild-native.cjs electron",
+    "rebuild:dev": "node scripts/rebuild-native.cjs dev",
+    "package:win": "npm run rebuild:electron && npm run build && electron-builder --win nsis",
+    "dist": "npm run build && electron-builder --win nsis --publish never",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "clsx": "^2.1.1",
+    "luxon": "^3.5.0",
+    "sharp": "^0.34.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.72.1",
+    "@typescript-eslint/parser": "^8.72.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-v8": "^2.1.8",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.0.1",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "eslint": "^9.14.0",
+    "jsdom": "^24.1.3",
+    "lucide-react": "^0.454.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8",
+    "wait-on": "^8.0.1"
+  },
+  "build": {
+    "npmRebuild": false,
+    "appId": "com.pinstudio.app",
+    "productName": "Pin Studio",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "fixtures/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "signAndEditExecutable": false,
+      "artifactName": "Pin-Studio-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Pin Studio"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.graphics-design"
+    }
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true,
+    "electron@33.4.11": true,
+    "sharp@0.34.5": true,
+    "esbuild@0.21.5": true
+  }
+}

@@ -1,0 +1,70 @@
+# Dependencies and package manager
+node_modules/
+.pnpm-store/
+.yarn/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build and packaging
+dist/
+dist-electron/
+out/
+build/
+release/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.map
+*.exe
+*.dmg
+*.app/
+*.blockmap
+*.zip
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.secret
+secrets/
+credentials/
+
+# SQLite and local assets
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.sqlite-shm
+*.sqlite-wal
+runtime-data/
+app-data/
+local-images/
+image-cache/
+local-backups/
+exports/
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Temp
+.tmp/
+tmp/
+*.tmp
+*.bak
+
+AGENTS.md
+CODEX_PROMPT.txt

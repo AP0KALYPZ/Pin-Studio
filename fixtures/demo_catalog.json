@@ -1,0 +1,772 @@
+{
+  "fixture_version": 1,
+  "synthetic": true,
+  "expected_products": 7,
+  "expected_images": 66,
+  "products": [
+    {
+      "id": "demo-product-001",
+      "shopify_gid": "gid://shopify/Product/900001",
+      "handle": "demo-product-001",
+      "title": "Silk Example A",
+      "description": "Synthetic test inventory; not from Pin Studio.",
+      "status": "ACTIVE",
+      "collections": [
+        "Demo Collection",
+        "Daywear"
+      ],
+      "canonical_url": "https://example.com/products/demo-product-001",
+      "images": []
+    },
+    {
+      "id": "demo-product-002",
+      "shopify_gid": "gid://shopify/Product/900002",
+      "handle": "demo-product-002",
+      "title": "Floral Example B",
+      "description": "Synthetic test inventory; not from Pin Studio.",
+      "status": "ACTIVE",
+      "collections": [
+        "Demo Collection",
+        "Evening"
+      ],
+      "canonical_url": "https://example.com/products/demo-product-002",
+      "images": [
+        {
+          "id": "demo-product-002-img-001",
+          "shopify_media_gid": "gid://shopify/MediaImage/90002001",
+          "source_order": 1,
+          "alt_text": "Demo placeholder for Floral Example B #1",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        }
+      ]
+    },
+    {
+      "id": "demo-product-003",
+      "shopify_gid": "gid://shopify/Product/900003",
+      "handle": "demo-product-003",
+      "title": "Evening Example C",
+      "description": "Synthetic test inventory; not from Pin Studio.",
+      "status": "ACTIVE",
+      "collections": [
+        "Demo Collection",
+        "Daywear"
+      ],
+      "canonical_url": "https://example.com/products/demo-product-003",
+      "images": [
+        {
+          "id": "demo-product-003-img-001",
+          "shopify_media_gid": "gid://shopify/MediaImage/90003001",
+          "source_order": 1,
+          "alt_text": "Demo placeholder for Evening Example C #1",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-003-img-002",
+          "shopify_media_gid": "gid://shopify/MediaImage/90003002",
+          "source_order": 2,
+          "alt_text": "Demo placeholder for Evening Example C #2",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-003-img-003",
+          "shopify_media_gid": "gid://shopify/MediaImage/90003003",
+          "source_order": 3,
+          "alt_text": "Demo placeholder for Evening Example C #3",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        }
+      ]
+    },
+    {
+      "id": "demo-product-004",
+      "shopify_gid": "gid://shopify/Product/900004",
+      "handle": "demo-product-004",
+      "title": "Modern Example D",
+      "description": "Synthetic test inventory; not from Pin Studio.",
+      "status": "ACTIVE",
+      "collections": [
+        "Demo Collection",
+        "Evening"
+      ],
+      "canonical_url": "https://example.com/products/demo-product-004",
+      "images": [
+        {
+          "id": "demo-product-004-img-001",
+          "shopify_media_gid": "gid://shopify/MediaImage/90004001",
+          "source_order": 1,
+          "alt_text": "Demo placeholder for Modern Example D #1",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-004-img-002",
+          "shopify_media_gid": "gid://shopify/MediaImage/90004002",
+          "source_order": 2,
+          "alt_text": "Demo placeholder for Modern Example D #2",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-004-img-003",
+          "shopify_media_gid": "gid://shopify/MediaImage/90004003",
+          "source_order": 3,
+          "alt_text": "Demo placeholder for Modern Example D #3",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-004-img-004",
+          "shopify_media_gid": "gid://shopify/MediaImage/90004004",
+          "source_order": 4,
+          "alt_text": "Demo placeholder for Modern Example D #4",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-004-img-005",
+          "shopify_media_gid": "gid://shopify/MediaImage/90004005",
+          "source_order": 5,
+          "alt_text": "Demo placeholder for Modern Example D #5",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-004-img-006",
+          "shopify_media_gid": "gid://shopify/MediaImage/90004006",
+          "source_order": 6,
+          "alt_text": "Demo placeholder for Modern Example D #6",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        }
+      ]
+    },
+    {
+      "id": "demo-product-005",
+      "shopify_gid": "gid://shopify/Product/900005",
+      "handle": "demo-product-005",
+      "title": "Daytime Example E",
+      "description": "Synthetic test inventory; not from Pin Studio.",
+      "status": "ACTIVE",
+      "collections": [
+        "Demo Collection",
+        "Daywear"
+      ],
+      "canonical_url": "https://example.com/products/demo-product-005",
+      "images": [
+        {
+          "id": "demo-product-005-img-001",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005001",
+          "source_order": 1,
+          "alt_text": "Demo placeholder for Daytime Example E #1",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-002",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005002",
+          "source_order": 2,
+          "alt_text": "Demo placeholder for Daytime Example E #2",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-003",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005003",
+          "source_order": 3,
+          "alt_text": "Demo placeholder for Daytime Example E #3",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-004",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005004",
+          "source_order": 4,
+          "alt_text": "Demo placeholder for Daytime Example E #4",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-005",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005005",
+          "source_order": 5,
+          "alt_text": "Demo placeholder for Daytime Example E #5",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-006",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005006",
+          "source_order": 6,
+          "alt_text": "Demo placeholder for Daytime Example E #6",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-007",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005007",
+          "source_order": 7,
+          "alt_text": "Demo placeholder for Daytime Example E #7",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-008",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005008",
+          "source_order": 8,
+          "alt_text": "Demo placeholder for Daytime Example E #8",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-009",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005009",
+          "source_order": 9,
+          "alt_text": "Demo placeholder for Daytime Example E #9",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-005-img-010",
+          "shopify_media_gid": "gid://shopify/MediaImage/90005010",
+          "source_order": 10,
+          "alt_text": "Demo placeholder for Daytime Example E #10",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        }
+      ]
+    },
+    {
+      "id": "demo-product-006",
+      "shopify_gid": "gid://shopify/Product/900006",
+      "handle": "demo-product-006",
+      "title": "Minimal Example F",
+      "description": "Synthetic test inventory; not from Pin Studio.",
+      "status": "ACTIVE",
+      "collections": [
+        "Demo Collection",
+        "Evening"
+      ],
+      "canonical_url": "https://example.com/products/demo-product-006",
+      "images": [
+        {
+          "id": "demo-product-006-img-001",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006001",
+          "source_order": 1,
+          "alt_text": "Demo placeholder for Minimal Example F #1",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-002",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006002",
+          "source_order": 2,
+          "alt_text": "Demo placeholder for Minimal Example F #2",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-003",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006003",
+          "source_order": 3,
+          "alt_text": "Demo placeholder for Minimal Example F #3",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-004",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006004",
+          "source_order": 4,
+          "alt_text": "Demo placeholder for Minimal Example F #4",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-005",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006005",
+          "source_order": 5,
+          "alt_text": "Demo placeholder for Minimal Example F #5",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-006",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006006",
+          "source_order": 6,
+          "alt_text": "Demo placeholder for Minimal Example F #6",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-007",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006007",
+          "source_order": 7,
+          "alt_text": "Demo placeholder for Minimal Example F #7",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-008",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006008",
+          "source_order": 8,
+          "alt_text": "Demo placeholder for Minimal Example F #8",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-009",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006009",
+          "source_order": 9,
+          "alt_text": "Demo placeholder for Minimal Example F #9",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-010",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006010",
+          "source_order": 10,
+          "alt_text": "Demo placeholder for Minimal Example F #10",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-011",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006011",
+          "source_order": 11,
+          "alt_text": "Demo placeholder for Minimal Example F #11",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-012",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006012",
+          "source_order": 12,
+          "alt_text": "Demo placeholder for Minimal Example F #12",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-013",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006013",
+          "source_order": 13,
+          "alt_text": "Demo placeholder for Minimal Example F #13",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-006-img-014",
+          "shopify_media_gid": "gid://shopify/MediaImage/90006014",
+          "source_order": 14,
+          "alt_text": "Demo placeholder for Minimal Example F #14",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        }
+      ]
+    },
+    {
+      "id": "demo-product-007",
+      "shopify_gid": "gid://shopify/Product/900007",
+      "handle": "demo-product-007",
+      "title": "Runway Example G",
+      "description": "Synthetic test inventory; not from Pin Studio.",
+      "status": "ACTIVE",
+      "collections": [
+        "Demo Collection",
+        "Daywear"
+      ],
+      "canonical_url": "https://example.com/products/demo-product-007",
+      "images": [
+        {
+          "id": "demo-product-007-img-001",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007001",
+          "source_order": 1,
+          "alt_text": "Demo placeholder for Runway Example G #1",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-002",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007002",
+          "source_order": 2,
+          "alt_text": "Demo placeholder for Runway Example G #2",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-003",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007003",
+          "source_order": 3,
+          "alt_text": "Demo placeholder for Runway Example G #3",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-004",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007004",
+          "source_order": 4,
+          "alt_text": "Demo placeholder for Runway Example G #4",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-005",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007005",
+          "source_order": 5,
+          "alt_text": "Demo placeholder for Runway Example G #5",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-006",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007006",
+          "source_order": 6,
+          "alt_text": "Demo placeholder for Runway Example G #6",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-007",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007007",
+          "source_order": 7,
+          "alt_text": "Demo placeholder for Runway Example G #7",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-008",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007008",
+          "source_order": 8,
+          "alt_text": "Demo placeholder for Runway Example G #8",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-009",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007009",
+          "source_order": 9,
+          "alt_text": "Demo placeholder for Runway Example G #9",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-010",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007010",
+          "source_order": 10,
+          "alt_text": "Demo placeholder for Runway Example G #10",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-011",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007011",
+          "source_order": 11,
+          "alt_text": "Demo placeholder for Runway Example G #11",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-012",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007012",
+          "source_order": 12,
+          "alt_text": "Demo placeholder for Runway Example G #12",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-013",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007013",
+          "source_order": 13,
+          "alt_text": "Demo placeholder for Runway Example G #13",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-014",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007014",
+          "source_order": 14,
+          "alt_text": "Demo placeholder for Runway Example G #14",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-015",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007015",
+          "source_order": 15,
+          "alt_text": "Demo placeholder for Runway Example G #15",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-016",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007016",
+          "source_order": 16,
+          "alt_text": "Demo placeholder for Runway Example G #16",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-017",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007017",
+          "source_order": 17,
+          "alt_text": "Demo placeholder for Runway Example G #17",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-018",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007018",
+          "source_order": 18,
+          "alt_text": "Demo placeholder for Runway Example G #18",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-019",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007019",
+          "source_order": 19,
+          "alt_text": "Demo placeholder for Runway Example G #19",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-020",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007020",
+          "source_order": 20,
+          "alt_text": "Demo placeholder for Runway Example G #20",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-021",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007021",
+          "source_order": 21,
+          "alt_text": "Demo placeholder for Runway Example G #21",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-022",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007022",
+          "source_order": 22,
+          "alt_text": "Demo placeholder for Runway Example G #22",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-023",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007023",
+          "source_order": 23,
+          "alt_text": "Demo placeholder for Runway Example G #23",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-024",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007024",
+          "source_order": 24,
+          "alt_text": "Demo placeholder for Runway Example G #24",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-025",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007025",
+          "source_order": 25,
+          "alt_text": "Demo placeholder for Runway Example G #25",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-026",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007026",
+          "source_order": 26,
+          "alt_text": "Demo placeholder for Runway Example G #26",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-027",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007027",
+          "source_order": 27,
+          "alt_text": "Demo placeholder for Runway Example G #27",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-028",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007028",
+          "source_order": 28,
+          "alt_text": "Demo placeholder for Runway Example G #28",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-029",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007029",
+          "source_order": 29,
+          "alt_text": "Demo placeholder for Runway Example G #29",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-030",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007030",
+          "source_order": 30,
+          "alt_text": "Demo placeholder for Runway Example G #30",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-031",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007031",
+          "source_order": 31,
+          "alt_text": "Demo placeholder for Runway Example G #31",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        },
+        {
+          "id": "demo-product-007-img-032",
+          "shopify_media_gid": "gid://shopify/MediaImage/90007032",
+          "source_order": 32,
+          "alt_text": "Demo placeholder for Runway Example G #32",
+          "width": 1200,
+          "height": 1800,
+          "synthetic": true,
+          "image_provider": "generate-local-placeholder"
+        }
+      ]
+    }
+  ]
+}

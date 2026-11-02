@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #F7F4F0;
+  color: #302925;
+  font-family: Inter, 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, .serif {
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid #B48E78;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+.scroll-thin::-webkit-scrollbar { width: 10px; height: 10px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: #E5DDD5; border-radius: 8px; }
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }
+
+.btn {
+  @apply inline-flex items-center justify-center gap-1.5 rounded-xl px-3.5 py-2 text-sm font-medium transition-all disabled:opacity-45 disabled:cursor-not-allowed;
+}
+.btn-primary { background: #453A35; color: #F7F4F0; }
+.btn-primary:hover:not(:disabled) { background: #302925; }
+.btn-ghost { background: #FFFFFF; border: 1px solid #E5DDD5; color: #302925; }
+.btn-ghost:hover:not(:disabled) { border-color: #B48E78; }
+.btn-clay { background: #B48E78; color: #fff; }
+.btn-clay:hover:not(:disabled) { filter: brightness(0.94); }
+.btn-danger { background: #fff; border: 1px solid #E5DDD5; color: #B35B54; }
+.btn-danger:hover:not(:disabled) { border-color: #B35B54; }
+
+.card {
+  @apply bg-white rounded-2xl border p-5;
+  border-color: #E5DDD5;
+  box-shadow: 0 1px 2px rgba(69, 58, 53, 0.05);
+}
+
+.input, .select, .textarea {
+  @apply w-full rounded-xl border bg-white px-3 py-2 text-sm;
+  border-color: #E5DDD5;
+  color: #302925;
+}
+.input:focus, .select:focus, .textarea:focus {
+  border-color: #B48E78;
+  outline: 2px solid rgba(180, 142, 120, 0.35);
+  outline-offset: 0;
+}
+
+.label { @apply block text-xs font-semibold uppercase tracking-wide mb-1; color: #84776D; }
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+.badge-planned { background: #F0EBE5; color: #453A35; }
+.badge-posted { background: #e3efe6; color: #3c6047; }
+.badge-skipped { background: #f3e2e1; color: #8d4a45; }
+.badge-review { background: #faf3e3; color: #8a6d2b; }
